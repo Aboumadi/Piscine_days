@@ -1,0 +1,5 @@
+Credentials cache: API:0CB0157A-7B26-45D3-97A3-72706BBF7821
+        Principal: aboumadi@1337.MA
+
+  Issued                Expires               Principal
+Aug  4 15:09:31 2021  Aug  5 01:09:31 2021  krbtgt/1337.MA@1337.MA

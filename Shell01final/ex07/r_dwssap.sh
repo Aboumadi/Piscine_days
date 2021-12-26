@@ -1,0 +1,1 @@
+cat /etc/passwd | sed '/^#/d' | sed -n "n;p" | awk -F: '{print $1}' | rev | sort -r | sed -n "$FT_LINE1, $FT_LINE2 p" | awk '{print $0 ", "}' | tr -d '\n' | rev | cut -c 3- | rev | awk '{print $0 "."}'
